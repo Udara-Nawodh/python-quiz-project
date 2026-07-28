@@ -27,7 +27,7 @@ if answer.strip() == "8":
     score= score+ 1
 
 answer = input("4. What does CPU stand for? ")
-if answer.lower() == "Central Processing Unit":
+if answer.strip() == "Central Processing Unit":
     score= score+ 1
     
 print("\nQuiz Completed!")
