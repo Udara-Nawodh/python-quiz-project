@@ -21,7 +21,6 @@ answer = input("2. What is the capital of Sri Lanka ")
 if answer.strip() == "Sri Jayawardanapura Kotte":
     score= score+ 1
 
-
 answer = input("3. What is 5 + 3? ")
 if answer.strip() == "8":
     score= score+ 1
@@ -33,11 +32,13 @@ if answer.strip() == "Central Processing Unit":
 print("\nQuiz Completed!")
 print(f"{name}, your final score is {score}/3")
 
-if score == 3:
+if score == 4:
     print("Excellent!")
+elif score == 3:
+    print("Great Job!")
 elif score == 2:
-    print("Good job!")
+    print("Good Job!")
 elif score == 1:
-    print("Keep practicing!")
+    print("Keep Practicing!")
 else:
     print("Better luck next time!")
